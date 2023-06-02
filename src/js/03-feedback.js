@@ -1,5 +1,7 @@
-const LOCAL_KEY = 'feedback-form-state'
-const form = document.querySelector('.feedback-form')
+const LOCAL_KEY = 'feedback-form-state';
+const form = document.querySelector('.feedback-form');
+import throttle from 'lodash.throttle';
+
 
 
 form.addEventListener('input',throttle(inputChange, 500));
