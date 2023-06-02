@@ -30,8 +30,3 @@ const fotoCard = galleryFoto(galleryItems)
     captionsData: 'alt',
     captionDelay : 250
 })
-
-  gallery.addEventListener("click", galleryClick);
- function galleryClick(evt) {
-  evt.preventDefault();
- }
